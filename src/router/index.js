@@ -9,7 +9,7 @@ const router = createRouter({
             component: () => import('../views/TopView.vue')
         },
         {
-            path: '/note',
+            path: '/notes/:createdAt',
             name: 'note',
             component: () => import('../views/NoteView.vue')
         }
