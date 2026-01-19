@@ -12,6 +12,11 @@ const router = createRouter({
             path: '/notes/:createdAt',
             name: 'note',
             component: () => import('../views/NoteView.vue')
+        },
+        {
+            path: '/notes/new',
+            name: 'new',
+            component: () => import('../views/NewView.vue')
         }
     ]
 })

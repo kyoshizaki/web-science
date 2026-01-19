@@ -4,8 +4,13 @@ import { RouterView } from 'vue-router';
 
 <template>
   <h1>WebScience Notebook</h1>
-  <RouterView></RouterView>
+  <div>
+    <RouterView></RouterView>
+  </div>
 </template>
 
 <style scoped>
+  div {
+    max-width: 400px;
+  }
 </style>
