@@ -1,6 +1,6 @@
 <script setup>
 import {reactive} from 'vue';
-import {stringifyQuery, useRouter} from 'vue-router';
+import {useRouter} from 'vue-router';
 const router = useRouter();
 const props = defineProps({
     url: String,
